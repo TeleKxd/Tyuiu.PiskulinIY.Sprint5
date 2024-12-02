@@ -23,7 +23,7 @@ namespace Tyuiu.PiskulinIY.Sprint5.Task5.V6
 
             string path = @"C:\Users\AeroC\AppData\Local\Temp\InPutDataFile.Task5V6.txt";
 
-            Console.WriteLine("Данные находятся в файле" + path);
+            Console.WriteLine("Данные находятся в файле: " + path);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ                                                               *");

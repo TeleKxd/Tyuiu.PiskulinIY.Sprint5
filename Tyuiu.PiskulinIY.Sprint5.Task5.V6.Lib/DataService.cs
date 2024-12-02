@@ -13,15 +13,12 @@ namespace Tyuiu.PiskulinIY.Sprint5.Task5.V6.Lib
                 string line;
                 while ((line = reader.ReadLine()) != null) 
                 {
-                    if (!line.Contains("."))
-                    {
-                        x++;
-                        res += Convert.ToDouble(line);
-                    }
+                    
+                    res = Math.Round(res + (Convert.ToDouble(line) / 20), 3);
                 }
             }
 
-            return Math.Round((res/x),3);
+            return res;
 
         }
     }
