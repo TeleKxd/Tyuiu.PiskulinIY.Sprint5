@@ -7,18 +7,22 @@ namespace Tyuiu.PiskulinIY.Sprint5.Task5.V6.Lib
         public double LoadFromDataFile(string path)
         {
             double res = 0;
-            
+            int x = 0;
             using (StreamReader reader = new StreamReader(path))
             {
                 string line;
                 while ((line = reader.ReadLine()) != null) 
                 {
-                    
-                    res = res + (Convert.ToDouble(line) / 20);
+                   if (!line.Contains(" "))
+                    {
+                        x++;
+                        res += Convert.ToDouble(line);
+                    }    
+                  
                 }
             }
 
-            return Math.Round(res, 3);
+            return Math.Round((res/x),3);
 
         }
     }
