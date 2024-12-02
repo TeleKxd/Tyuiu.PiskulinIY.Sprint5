@@ -22,7 +22,7 @@ namespace Tyuiu.PiskulinIY.Sprint5.Task4.V21
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            string path = $@"{Path.GetTempPath()}InPutDataFile.Task4V0.txt";
+            string path = $@"{Path.GetTempPath()}InPutDataFile.Task4V21.txt";
 
             Console.WriteLine("Данные находятся в файле: " + path);
 
