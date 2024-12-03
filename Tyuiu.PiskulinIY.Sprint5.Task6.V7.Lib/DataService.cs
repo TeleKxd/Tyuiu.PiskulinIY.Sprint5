@@ -12,7 +12,7 @@ namespace Tyuiu.PiskulinIY.Sprint5.Task6.V7.Lib
 
             
             {
-                string content = File.ReadAllText(@"C:\Users\AeroC\AppData\Local\Temp\InPutDataFile.Task6V7.txt");
+                string content = File.ReadAllText(@"C:\Users\AeroC\source\repos\Tyuiu.PiskulinIY.Sprint5\Tyuiu.PiskulinIY.Sprint5.Task6.V7\bin\Debug\net8.0\InPutDataFile.Task6V7.txt");
                 int count = 0;
                 
                 foreach (char c in content)
