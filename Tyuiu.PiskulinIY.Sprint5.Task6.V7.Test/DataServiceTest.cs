@@ -1,5 +1,5 @@
-using Tyuiu.PiskulinIY.Sprint5.Task6.V7.Lib;
-namespace Tyuiu.PiskulinIY.Sprint5.Task6.V7.Test
+using Tyuiu.PiskulinIY.Sprint5.Task6V7.Lib;
+namespace Tyuiu.PiskulinIY.Sprint5.Task6V7.Test
 {
     [TestClass]
     public class DataServiceTest

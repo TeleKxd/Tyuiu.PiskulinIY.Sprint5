@@ -1,5 +1,5 @@
-﻿using Tyuiu.PiskulinIY.Sprint5.Task6.V7.Lib;
-namespace Tyuiu.PiskulinIY.Sprint5.Task6.V7
+﻿using Tyuiu.PiskulinIY.Sprint5.Task6V7.Lib;
+namespace Tyuiu.PiskulinIY.Sprint5.Task6V7
 {
     internal class Program
     {
