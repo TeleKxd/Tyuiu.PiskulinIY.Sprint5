@@ -10,7 +10,7 @@ namespace Tyuiu.PiskulinIY.Sprint5.Task6.V7.Lib
             {
                 string content = File.ReadAllText(path);
                 int count = 0;
-                
+
                 foreach (char c in content)
                 {
                     if (char.IsLower(c))
@@ -20,7 +20,6 @@ namespace Tyuiu.PiskulinIY.Sprint5.Task6.V7.Lib
                 }
                 return count;
             }
-            
         }
     }
 }
