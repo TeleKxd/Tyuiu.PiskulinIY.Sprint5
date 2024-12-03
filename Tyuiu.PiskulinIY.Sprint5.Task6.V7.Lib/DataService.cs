@@ -10,7 +10,7 @@ namespace Tyuiu.PiskulinIY.Sprint5.Task6.V7.Lib
         public int LoadFromDataFile(string path)
         {
 
-            using (StreamReader reader = new StreamReader(path))
+            
             {
                 string content = File.ReadAllText(@"C:\Users\AeroC\AppData\Local\Temp\InPutDataFile.Task6V7.txt");
                 int count = 0;
