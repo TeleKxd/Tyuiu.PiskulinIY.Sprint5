@@ -5,12 +5,8 @@ namespace Tyuiu.PiskulinIY.Sprint5.Task6.V7.Lib
 {
     public class DataService : ISprint5Task6V7
     {
-
-        
         public int LoadFromDataFile(string path)
         {
-
-            
             {
                 string content = File.ReadAllText(path);
                 int count = 0;
