@@ -1,4 +1,4 @@
-using Tyuiu.PiskulinIY.Sprint5.Task6V7.Lib;
+using Tyuiu.PiskulinIY.Sprint5.Task6.V7.Lib;
 namespace Tyuiu.PiskulinIY.Sprint5.Task6V7.Test
 {
     [TestClass]
@@ -7,7 +7,7 @@ namespace Tyuiu.PiskulinIY.Sprint5.Task6V7.Test
         [TestMethod]
         public void TestMethod1()
         {
-            string path = @"C:\Users\AeroC\source\repos\Tyuiu.PiskulinIY.Sprint5\Tyuiu.PiskulinIY.Sprint5.Task6V7\bin\Debug\net8.0\InPutDataFile.Task6V7.txt";
+            string path = @"C:\Users\AeroC\source\repos\Tyuiu.PiskulinIY.Sprint5\Tyuiu.PiskulinIY.Sprint5.Task6.V7\bin\Debug\net8.0\InPutDataFile.Task6V7.txt";
 
             FileInfo fileinfo = new FileInfo(path);
             bool fileExists = fileinfo.Exists;
